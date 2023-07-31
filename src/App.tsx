@@ -13,7 +13,7 @@ function App() {
   const [data, setData] = useState<Data[]>([]);
   const navigate = useNavigate();
 
-  useEffect(() => {
+  useEffect(() => {//debug
     if (data.length === 0) {
       getData();
     }
